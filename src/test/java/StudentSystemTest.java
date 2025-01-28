@@ -39,7 +39,7 @@ public class StudentSystemTest {
             ss.getHighestGPAStudent();
         });
         String message = exception.getMessage();
-        assertEquals(message,"List of students is empty.");
+        assertEquals(message,"List of students is empty");
     }
     @Test
     public void testNamesArray(){

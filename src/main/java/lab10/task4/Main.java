@@ -11,7 +11,7 @@ public class Main {
         playlist.add(new Song("song3","artist3","genre1"));
         playlist.add(new Song("song4","artist4","genre3"));
         playlist.add(new Song("song5","artist5","genre1"));
-        GenreFilterIterator filterIterator = new GenreFilterIterator(playlist,"genre1");
+        GenreFilterIterator filterIterator = new GenreFilterIterator(playlist,"genre21");
         while(filterIterator.hasNext()) {
             Song song = filterIterator.next();
             System.out.println(song);

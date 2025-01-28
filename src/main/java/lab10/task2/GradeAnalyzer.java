@@ -3,7 +3,7 @@ package lab10.task2;
 import java.util.ArrayList;
 
 public class GradeAnalyzer {
-    ArrayList<Integer> grades;
+    private ArrayList<Integer> grades;
     public GradeAnalyzer(ArrayList<Integer> grades) {
         this.grades = grades;
     }

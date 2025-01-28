@@ -2,7 +2,7 @@ package lab11.task;
 
 public class Main {
     public static void main(String[] args) {
-        StudentSystem ss = new StudentSystem("C:\\Users\\Korisnik\\Downloads\\students.csv");
+        StudentSystem ss = new StudentSystem("C:\\Users\\Korisnik\\Downloads\\studentsss.csv");
         for(Student s : ss.getStudents()){
             System.out.println(s);
         }
